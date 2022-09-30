@@ -1,0 +1,29 @@
+body {
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* dislay flex initializes nav container as a 
+parent cont */
+.nav-container {
+    display: flex;
+    border: 2px solid sienna;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+   /* column-reverse
+   row-reverse
+   etc
+    */
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+  
+
+    
+    
+
+
